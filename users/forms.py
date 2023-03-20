@@ -15,4 +15,4 @@ class UserProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile
         fields = ['phone_number', 'profile_image', 'cover_image', 'occupation', 'description', 'availability',\
-                'birth_date', 'years_of_experience', 'address', 'company_name']
+                'birth_date', 'years_of_experience', 'address', 'company_name', 'country', 'language']
